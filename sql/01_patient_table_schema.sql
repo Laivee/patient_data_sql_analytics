@@ -1,6 +1,6 @@
 /*Table schema for storing the patient records from the comma-separated-values*/
 CREATE TABLE patients (
-    id INT PRIMARY KEY NOT NULL AUTO_INCREMENT, --autoincrementing id of the table
+    patient_id VARCHAR(20), -- hospital-assigned patient id
     age INT, -- age of the patient
     gender VARCHAR(20), -- gender of the patient
     state VARCHAR(50), -- state of origin of the patient
